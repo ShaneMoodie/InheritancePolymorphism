@@ -59,6 +59,11 @@ namespace Week3Day4InheritancePolymorphism
             distanceTraveled += movementSpeed;
         }
 
+        public virtual string GetDistanceTraveled()
+        {
+            return "Distance Traveled: " + distanceTraveled + "\n";
+        }
+
 
     }
 }

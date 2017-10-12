@@ -24,5 +24,10 @@ namespace Week3Day4InheritancePolymorphism
             altitude += 10000.0d; 
             base.Move();
         }
+
+        public override string GetDistanceTraveled()
+        {
+            return "Altitude: " + altitude + " - " + base.GetDistanceTraveled();
+        }
     }
 }

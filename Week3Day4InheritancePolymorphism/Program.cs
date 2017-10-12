@@ -26,12 +26,13 @@ namespace Week3Day4InheritancePolymorphism
             Boat boaty = new Boat(2, 500, "Red", 88.0d, .9d);
             boaty.Move();
             boaty.Move();
-            Console.WriteLine("Boat Distance Traveled: " + boaty.DistanceTraveled);
+            Console.WriteLine("\nBoat Distance Traveled: " + boaty.DistanceTraveled);
 
             Aircraft aircraft1 = new Aircraft(70, 100000, "Grey", 600.0d);
             aircraft1.Move();
             aircraft1.Move();
-            Console.WriteLine("Aircraft Distance Travelled: " + aircraft1.DistanceTraveled);
+            Console.WriteLine("\nAircraft Distance Travelled: " + aircraft1.GetDistanceTraveled());
+
         }
     }
 }
